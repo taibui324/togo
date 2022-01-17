@@ -18,8 +18,8 @@ POST    /todos  add tasks
 ** Run unit test: `npm run test`
 
 ### APIS curl command 
-curl -v http://localhost:3004/todos
-curl -d 'name=test' http://localhost:3004/todos
+GET: curl -v http://localhost:3004/todos
+POST: curl -d 'name=test' http://localhost:3004/todos
 
 ### Thoughts
 I like that I was able inject to mongodb engine and limit results it receives for each user.
