@@ -12,6 +12,9 @@ require('./db')();
 const Todo = require('./routes/Todo.route');
 app.use('/todos',Todo);
 
+const User = require('./routes/User.route');
+app.use('/users',User);
+
 //Error handler
 app.use((err, req, res, next) => {
     if (err) {
